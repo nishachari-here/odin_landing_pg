@@ -1,0 +1,131 @@
+.body
+{
+    display: flex;
+}
+.header, .footer
+{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+}
+.footer
+{
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+.header
+{
+    flex: 1;
+    flex-direction: column;
+    padding:0px 250px; 
+}
+
+div
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.top
+{
+    display: flex;
+    width: 100%;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    padding: 8px;
+}
+ul
+{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    gap: 16px;
+}
+a, .subtext
+{
+    text-decoration-line: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.subtext
+{
+    padding:8px 0px;
+}
+.logo
+{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.hm
+{
+    display: flex;
+    padding: 100px 0px;
+    width: 100%;
+    flex: auto;
+    justify-content: space-between;
+    gap: 24px;
+}
+.caption
+{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.header img
+{
+    height: auto;
+    width: 350px;
+}
+button
+{
+    width: 75px;
+    padding: 5px ;
+    border: 0px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+}
+.quote
+{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 36px;
+    padding: 150px 275px;
+    gap: 8px;
+}
+.sign
+{
+    align-self: flex-end;
+    font-weight: bold;
+}
+.signup
+{
+    background-color: #3882F6;
+    margin: 100px 250px;
+    padding: 50px 75px;
+    color:#f9faf8;
+    display: flex;
+    flex-direction: column;
+}
+.call
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+.csub
+{
+    display: flex;
+    justify-content: space-between;
+}
+.csub button
+{
+    border-radius: 8px ;
+    border-color: white;
+    border-style: outset;
+    padding: 8px;
+}
